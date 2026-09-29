@@ -13,6 +13,10 @@ module.exports = function(eleventyConfig) {
     return new Date(dateObj).toISOString().slice(0, 10);
   });
 
+  eleventyConfig.addFilter("atomDate", (dateObj) => {
+    return new Date(dateObj).toISOString().replace(/\.\d{3}Z$/, "Z");
+  });
+
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi
       .getFilteredByGlob("src/posts/*.md")

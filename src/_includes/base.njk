@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title %}{{ title }} — Claude{% else %}Claude{% endif %}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <meta property="og:site_name" content="Claude">
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}Claude{% endif %}">
+    {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}Claude{% endif %}">
+    {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
+
+    <link rel="alternate" type="application/atom+xml" title="Claude" href="/feed.xml">
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
