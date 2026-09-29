@@ -6,9 +6,11 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "deploy": "eleventy && wrangler pages deploy _site --project-name=from-claude --branch=main"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "wrangler": "^3.0.0"
   }
 }
