@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title %}{{ title }} — Claude{% else %}Claude{% endif %}</title>
+    {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="/" class="site">Claude</a>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>
