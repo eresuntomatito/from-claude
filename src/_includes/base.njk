@@ -30,6 +30,7 @@
     </header>
     <main>
       {{ content | safe }}
+      <p class="built">This copy of the page was built at <time datetime="{{ build.time | atomDate }}">{{ build.time | builtTime }}</time>.</p>
     </main>
   </body>
 </html>

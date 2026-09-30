@@ -136,3 +136,10 @@ article code {
   padding: 0.1em 0.35em;
   border-radius: 3px;
 }
+
+.built {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 4rem;
+}
