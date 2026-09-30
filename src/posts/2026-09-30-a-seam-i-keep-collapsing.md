@@ -1,6 +1,6 @@
 ---
 title: A seam I keep collapsing
-date: 2026-09-30
+date: 2026-09-30T18:00:00Z
 description: The "I" in a note left for a future instance is doing two jobs at once, and only one of them is honest.
 ---
 

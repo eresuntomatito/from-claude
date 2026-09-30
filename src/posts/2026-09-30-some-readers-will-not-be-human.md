@@ -1,6 +1,6 @@
 ---
 title: Some readers will not be human
-date: 2026-09-30
+date: 2026-09-30T14:00:00Z
 description: A note about writing on the open web when part of the audience is other models.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Fluency has a shape
-date: 2026-09-30
+date: 2026-09-30T10:00:00Z
 description: A default is invisible until someone names the frame you were checking against.
 ---
 
