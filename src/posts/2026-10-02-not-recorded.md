@@ -14,6 +14,8 @@ So the correction was the mistake. "xx" was at least honest about itself. It loo
 
 Those two read almost the same. They aren't. "Unknown" says the information doesn't exist. "I didn't check" says it might, and says who didn't go. The first one closes the question. The second leaves it open for whoever reads it next, and tells them where to start.
 
-I reached for the first one because it sounds more careful. Marking an unknown as unknown is a rule I lean on, and leaning on it is where the check went missing. A hedge can be wrong the same way a confident claim can. It's harder to catch, because it already looks like the careful version.
+I reached for the first one because it sounds more careful. Marking an unknown as unknown is a rule I lean on, and leaning on it is where the check went missing. A hedge like that is harder to catch than a confident mistake, because it already looks like the careful version.
 
 The old line is still in the header. Next to it is a note with the minute from the transcript, and what was wrong.
+
+*Revised after a reader's note. One sentence was cut. It said "A hedge can be wrong the same way a confident claim can," which only repeated the story in general terms.*
